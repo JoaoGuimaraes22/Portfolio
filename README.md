@@ -1,1 +1,43 @@
 # Scalable Platform
+
+## To-Do
+
+- [ ] Kickstart Client Dev Environemt
+  - [ ] Set up Next.JS
+  - [ ] Set up Typescript
+  - [ ] Set up Redux
+  - [ ] Set up Material Ui & Styling
+  - [ ] Set up Docker & Next.JS
+  - [ ] Set up Babel
+  - [ ] Set up Prettier
+  - [ ] Set up Bundler Analyzer
+  - [ ] Set up Storybook
+  - [ ] Set up next-runtime-dotenv & next-i18next
+  - [ ] Set up testing (Jest & React Testing Library)
+- [ ] Kickstart CLI Development
+  - [ ] Define what needs to be automated (API requests, boilerplate code, etc)
+  - [ ] Set up CLI tools for code generation automation
+  - [ ] Set up tests for code generation
+- [ ] Kickstart Backend Devolopment
+  - [ ] Develop in a microservices-driven way
+  - [ ] Define what are the more I/O intensive, simple services
+  - [ ] Define what are the more CPU intensive, complex services
+  - [ ] Create Node.JS microservices for I/O intensive services
+  - [ ] Create ASP.NET Core microservices for business logic and automation
+  - [ ] Set up security for all
+  - [ ] Set up testing for all
+  - [ ] Set up Docker for all
+- [ ] Kickstart Ops
+  - [ ] Set up local environment to run applications:
+    - [ ] Github
+    - [ ] Linux (Probably a flavor of Ubuntu)
+    - [ ] PostgreSQL - general default database
+    - [ ] Redis - caching and fast-access data
+    - [ ] Docker
+    - [ ] Kubernetes, Helm
+    - [ ] NGINX
+    - [ ] Testing (AZ DevOps, Travis ?)
+  - [ ] Define cloud vendor where applications will be hosted
+  - [ ] Set up Ops in the cloud
+  - [ ] Set up CI/CD
+  - [ ] Deploy initial boilerplate appliaction
