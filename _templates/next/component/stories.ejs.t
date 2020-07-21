@@ -1,5 +1,5 @@
 ---
-to: ./<%=path%>/<%=name%>/<%=name%>.stories.tsx
+to: <%=path%>/<%=name%>/<%=name%>.stories.tsx
 ---
 
 // #region Global Imports

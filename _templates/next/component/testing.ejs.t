@@ -1,5 +1,5 @@
 ---
-to: ./<%=path%>/<%=name%>/index.spec.tsx
+to: <%=path%>/<%=name%>/index.spec.tsx
 ---
 
 // #region Global Imports
