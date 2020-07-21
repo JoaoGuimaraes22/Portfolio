@@ -20,6 +20,9 @@
   - [ ] Set up tests for code generation
 - [ ] Kickstart Backend Devolopment
   - [ ] Develop in a microservices-driven way
+  - [ ] Develop in an event-driven way
+  - [ ] Implement gRPC with Node
+  - [ ] Implement gRPC with ASP.NET CORE
   - [ ] Define what are the more I/O intensive, simple services
   - [ ] Define what are the more CPU intensive, complex services
   - [ ] Create Node.JS microservices for I/O intensive services
@@ -36,7 +39,7 @@
     - [ ] Docker
     - [ ] Kubernetes, Helm
     - [ ] NGINX
-    - [ ] Testing (AZ DevOps, Travis ?)
+    - [ ] Testing, CI, CD (AZ DevOps, Travis ?)
   - [ ] Define cloud vendor where applications will be hosted
   - [ ] Set up Ops in the cloud
   - [ ] Set up CI/CD
