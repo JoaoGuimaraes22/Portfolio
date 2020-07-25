@@ -1,5 +1,5 @@
 ---
-to: <%=path%>/<%=name%>/index.tsx
+to: ./client/src/components/<%=path%>/<%=name%>/index.tsx
 ---
 
 // #region Global Imports
