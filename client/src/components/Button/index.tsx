@@ -7,5 +7,5 @@ import { IButton } from "./Button";
 // #endregion Local Imports
 
 export const Button: React.FunctionComponent<IButton.IProps> = (props) => {
-  return <button onClick={props.onClick}>{props.text}</button>;
+    return <button onClick={props.onClick}>{props.text}</button>;
 };

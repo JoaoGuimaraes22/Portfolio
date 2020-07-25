@@ -3,16 +3,17 @@
 ## To-Do
 
 - [ ] Kickstart Client Dev Environemt
-  - [ ] Set up Next.JS
-  - [ ] Set up Typescript
+  - [x] Set up Next.JS
+  - [x] Set up Typescript
   - [ ] Set up Redux
-  - [ ] Set up Material Ui & Styling
-  - [ ] Set up Docker & Next.JS
-  - [ ] Set up Babel
-  - [ ] Set up Prettier
+  - [x] Set up Material Ui & Styling
+  - [ ] Set up Docker
+  - [x] Set up Babel
+  - [x] Set up Prettier (Auto Linting (I Like it, you may choose ESLint))
   - [ ] Set up Bundler Analyzer
-  - [ ] Set up Storybook
-  - [ ] Set up next-runtime-dotenv & next-i18next
+  - [x] Set up Storybook
+  - [ ] Set up Environment Variables
+  - [ ] Set up next-i18next
   - [ ] Set up testing (Jest & React Testing Library)
 - [ ] Kickstart CLI Development
   - [ ] Define what needs to be automated (API requests, boilerplate code, etc)

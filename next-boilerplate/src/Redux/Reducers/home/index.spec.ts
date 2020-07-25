@@ -20,7 +20,7 @@ describe("home reducer", () => {
 
     it("should handle SetReducer", () => {
         expect(
-            HomeReducer([], {
+            HomeReducer(undefined, {
                 type: ActionConsts.Home.SetReducer,
                 payload: {
                     version: 2,
