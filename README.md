@@ -5,19 +5,19 @@
 - [ ] Kickstart Client Dev Environemt
   - [x] Set up Next.JS
   - [x] Set up Typescript
-  - [ ] Set up Redux
+  - [x] Set up Redux
   - [x] Set up Material Ui & Styling
   - [ ] Set up Docker
   - [x] Set up Babel
   - [x] Set up Prettier (Auto Linting (I Like it, you may choose ESLint))
   - [ ] Set up Bundler Analyzer
   - [x] Set up Storybook
-  - [ ] Set up Environment Variables
+  - [x] Set up Environment Variables
   - [ ] Set up next-i18next
   - [ ] Set up testing (Jest & React Testing Library)
 - [ ] Kickstart CLI Development
   - [ ] Define what needs to be automated (API requests, boilerplate code, etc)
-  - [ ] Set up CLI tools for code generation automation
+  - [x] Set up CLI tools for code generation automation
   - [ ] Set up tests for code generation
 - [ ] Kickstart Backend Devolopment
   - [ ] Develop in a microservices-driven way
@@ -30,7 +30,7 @@
   - [ ] Set up Docker for all
 - [ ] Kickstart Ops
   - [ ] Set up local environment to run applications:
-    - [ ] Github
+    - [x] Github
     - [ ] Linux (Probably a flavor of Ubuntu)
     - [ ] PostgreSQL - general default database
     - [ ] Redis - caching and fast-access data
