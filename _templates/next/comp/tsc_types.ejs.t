@@ -1,5 +1,5 @@
 ---
-to: <%=path%>/<%=name%>/<%=name%>.d.ts
+to: ./client/src/components/<%=path%>/<%=name%>/<%=name%>.d.ts
 ---
 
 declare namespace I<%= name %> {
