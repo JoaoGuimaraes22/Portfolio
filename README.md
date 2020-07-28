@@ -7,9 +7,9 @@
   - [x] Set up Typescript
   - [x] Set up Redux
   - [x] Set up Material Ui & Styling
-  - [ ] Set up Docker
+  - [x] Set up Docker
   - [x] Set up Babel
-  - [x] Set up Prettier (Auto Linting (I Like it, you may choose ESLint))
+  - [x] Set up Prettier (Auto Linting (I Like it, might add ESLint))
   - [ ] Set up Bundler Analyzer
   - [x] Set up Storybook
   - [x] Set up Environment Variables
