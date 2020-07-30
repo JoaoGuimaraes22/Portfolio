@@ -10,7 +10,7 @@
   - [x] Set up Docker
   - [x] Set up Babel
   - [x] Set up Prettier (Auto Linting (I Like it, might add ESLint))
-  - [ ] Set up Bundler Analyzer
+  - [x] Set up Bundler Analyzer
   - [x] Set up Storybook
   - [x] Set up Environment Variables
   - [ ] Set up translation

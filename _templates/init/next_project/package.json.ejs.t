@@ -1,5 +1,9 @@
+---
+to: ./client/package.json
+---
+
 {
-    "name": "with-typescript",
+    "name": "<%=project_name%>",
     "version": "1.0.0",
     "scripts": {
         "dev": "next",
@@ -7,9 +11,7 @@
         "start": "next start",
         "type-check": "tsc",
         "storybook": "start-storybook -p 6006",
-        "build-storybook": "build-storybook",
-        "test": "jest --coverage",
-        "pretty": "prettier --write --config .prettierrc.js {src,pages,server}/**/*.{ts,tsx}"
+        "build-storybook": "build-storybook"
     },
     "dependencies": {
         "@material-ui/core": "^4.11.0",
@@ -31,8 +33,6 @@
         "@storybook/addons": "^5.3.19",
         "@storybook/react": "^5.3.19",
         "@storybook/source-loader": "^5.3.19",
-        "@testing-library/jest-dom": "^5.11.2",
-        "@testing-library/react": "^10.4.7",
         "@types/jest": "^26.0.7",
         "@types/node": "^12.12.21",
         "@types/react": "^16.9.16",
@@ -40,10 +40,10 @@
         "@types/react-redux": "^7.1.9",
         "babel-loader": "^8.1.0",
         "babel-preset-react-app": "^9.1.2",
-        "jest": "^26.2.1",
+        "jest": "^26.1.0",
         "prettier": "^2.0.5",
         "redux-devtools-extension": "^2.13.8",
-        "ts-jest": "^26.1.4",
+        "ts-jest": "^26.1.3",
         "ts-loader": "^8.0.1",
         "typescript": "^3.7.3",
         "webpack": "^4.44.0"
