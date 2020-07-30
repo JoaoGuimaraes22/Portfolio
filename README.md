@@ -13,7 +13,7 @@
   - [ ] Set up Bundler Analyzer
   - [x] Set up Storybook
   - [x] Set up Environment Variables
-  - [ ] Set up next-i18next
+  - [ ] Set up translation
   - [ ] Set up testing (Jest & React Testing Library)
 - [ ] Kickstart CLI Development
   - [ ] Define what needs to be automated (API requests, boilerplate code, etc)
