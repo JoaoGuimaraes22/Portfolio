@@ -1,4 +1,3 @@
-
 // #region Global Imports
 import React from "react";
 // #endregion Global Imports
@@ -7,6 +6,8 @@ import React from "react";
 import { IExperience } from "./Experience";
 // #endregion Local Imports
 
-export const Experience: React.FunctionComponent<IExperience.IProps> = props => {
-    return "Your Component";
+export const Experience: React.FunctionComponent<IExperience.IProps> = (
+    props
+) => {
+    return <></>;
 };

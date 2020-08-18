@@ -1,4 +1,3 @@
-
 // #region Global Imports
 import React from "react";
 // #endregion Global Imports
@@ -7,6 +6,6 @@ import React from "react";
 import { IContact } from "./Contact";
 // #endregion Local Imports
 
-export const Contact: React.FunctionComponent<IContact.IProps> = props => {
-    return "Your Component";
+export const Contact: React.FunctionComponent<IContact.IProps> = (props) => {
+    return <></>;
 };

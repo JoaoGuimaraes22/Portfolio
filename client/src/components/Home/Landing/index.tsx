@@ -16,14 +16,14 @@ export const Landing: React.FunctionComponent<ILanding.IProps> = (_props) => {
                 style={{
                     height: "100vh",
                     width: "100%",
-                    background: "linear-gradient(#34648e, #57396f)",
+                    background: "linear-gradient(#34648e, #4f9adb, #f2f2f2)",
                 }}
             >
                 <Particles
                     className="particles"
                     // @ts-ignore
                     params={particlesConfig}
-                    style={{ height: "100vh" }}
+                    height="100vh"
                 />
                 <Container
                     style={{

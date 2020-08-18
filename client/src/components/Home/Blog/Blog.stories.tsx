@@ -12,4 +12,8 @@ export default {
     title: "Blog",
 };
 
-export const Default = () => <></>;
+export const Default = () => (
+    <>
+        <Blog></Blog>
+    </>
+);

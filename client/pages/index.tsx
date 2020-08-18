@@ -1,10 +1,8 @@
-import { Landing } from "../src/components/Home/Landing";
+import { Landing } from "../src/components/Home/Landing/index";
 
 const IndexPage = () => (
     <>
-        <div>
-            <Landing></Landing>
-        </div>
+        <Landing></Landing>
     </>
 );
 
