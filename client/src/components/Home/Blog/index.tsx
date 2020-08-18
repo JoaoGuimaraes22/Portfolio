@@ -1,11 +1,12 @@
+
 // #region Global Imports
 import React from "react";
 // #endregion Global Imports
 
 // #region Local Imports
-import { ITest } from "./Test";
+import { IBlog } from "./Blog";
 // #endregion Local Imports
 
-export const Test: React.FunctionComponent<ITest.IProps> = (props) => {
-    return <h1>{props.text}</h1>;
+export const Blog: React.FunctionComponent<IBlog.IProps> = props => {
+    return "Your Component";
 };

@@ -3,6 +3,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import { ThemeProvider } from "@material-ui/styles";
 import React from "react";
 import theme from "../../src/theme";
+import "../global.css";
 
 type Props = {
     Component: React.FC;
@@ -10,6 +11,14 @@ type Props = {
 };
 
 const WrappedApp = ({ Component, pageProps }: Props) => {
+    React.useEffect(() => {
+        // Remove the server-side injected CSS.
+        const jssStyles: any = document.querySelector("#jss-server-side");
+        if (jssStyles) {
+            jssStyles.parentElement.removeChild(jssStyles);
+        }
+    }, []);
+
     return (
         <Component {...pageProps}>
             {" "}

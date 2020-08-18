@@ -1,7 +1,9 @@
+import { Landing } from "../src/components/Home/Landing";
+
 const IndexPage = () => (
     <>
         <div>
-            <h1>Hello World</h1>
+            <Landing></Landing>
         </div>
     </>
 );
