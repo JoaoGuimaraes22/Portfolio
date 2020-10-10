@@ -13,5 +13,4 @@ export default {
     title: "Navbar",
 };
 
-export const Default = () => (
-);
+export const Default = () => <></>

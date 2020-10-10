@@ -7,6 +7,6 @@ import React from "react";
 import { IBlog } from "./Blog";
 // #endregion Local Imports
 
-export const Blog: React.FunctionComponent<IBlog.IProps> = props => {
-    return "Your Component";
+export const Blog: React.FunctionComponent<IBlog.IProps> = _props => {
+    return <></>;
 };

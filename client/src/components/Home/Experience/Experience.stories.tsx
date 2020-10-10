@@ -13,5 +13,4 @@ export default {
     title: "Experience",
 };
 
-export const Default = () => (
-);
+export const Default = () => <></>

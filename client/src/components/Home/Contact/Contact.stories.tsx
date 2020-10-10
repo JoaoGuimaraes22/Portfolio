@@ -13,5 +13,4 @@ export default {
     title: "Contact",
 };
 
-export const Default = () => (
-);
+export const Default = () => <></>;

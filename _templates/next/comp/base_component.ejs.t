@@ -10,6 +10,6 @@ import React from "react";
 import { I<%= name %> } from "./<%= name %>";
 // #endregion Local Imports
 
-export const <%= name %>: React.FunctionComponent<I<%= name %>.IProps> = props => {
+export const <%= name %>: React.FunctionComponent<I<%= name %>.IProps> = _props => {
     return <></>;
 };

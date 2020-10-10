@@ -13,5 +13,4 @@ export default {
     title: "Footer",
 };
 
-export const Default = () => (
-);
+export const Default = () => <></>;

@@ -7,6 +7,4 @@ import React from "react";
 import { IProjects } from "./Projects";
 // #endregion Local Imports
 
-export const Projects: React.FunctionComponent<IProjects.IProps> = props => {
-    return "Your Component";
-};
+export const Projects: React.FunctionComponent<IProjects.IProps> = _props => <></>

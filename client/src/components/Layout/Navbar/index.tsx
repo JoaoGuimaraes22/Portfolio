@@ -7,6 +7,6 @@ import React from "react";
 import { INavbar } from "./Navbar";
 // #endregion Local Imports
 
-export const Navbar: React.FunctionComponent<INavbar.IProps> = props => {
-    return "Your Component";
+export const Navbar: React.FunctionComponent<INavbar.IProps> = _props => {
+    return <></>
 };
