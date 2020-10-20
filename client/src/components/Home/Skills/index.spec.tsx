@@ -7,5 +7,7 @@ import { Skills } from "./index";
 // #endregion Local Imports
 
 describe("Basic Components", () => {
-    describe("Skills", () => {});
+    describe("Skills", () => {
+        <Skills></Skills>;
+    });
 });

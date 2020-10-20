@@ -1,7 +1,5 @@
-
 // #region Global Imports
 import React from "react";
-import { action } from "@storybook/addon-actions";
 // #endregion Global Imports
 
 // #region Local Imports
@@ -13,4 +11,8 @@ export default {
     title: "Projects",
 };
 
-export const Default = () => <></>
+export const Default = () => (
+    <>
+        <Projects></Projects>
+    </>
+);

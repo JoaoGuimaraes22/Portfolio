@@ -1,4 +1,3 @@
-
 // #region Global Imports
 import React from "react";
 // #endregion Global Imports
@@ -7,4 +6,6 @@ import React from "react";
 import { IProjects } from "./Projects";
 // #endregion Local Imports
 
-export const Projects: React.FunctionComponent<IProjects.IProps> = _props => <></>
+export const Projects: React.FunctionComponent<IProjects.IProps> = (_props) => (
+    <></>
+);
