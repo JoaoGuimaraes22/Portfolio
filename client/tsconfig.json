@@ -23,6 +23,6 @@
         "next-env.d.ts",
         "**/*.ts",
         "**/*.tsx",
-        "src/particles-config/particles-config.js"
+        "src/components/Home/Landing/particles-config/particles-config.js"
     ]
 }

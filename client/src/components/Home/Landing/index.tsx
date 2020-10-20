@@ -6,7 +6,7 @@ import Particles from "react-particles-js";
 
 // #region Local Imports
 import { ILanding } from "./Landing";
-import { particlesConfig } from "../../../particles-config/particles-config";
+import { particlesConfig } from "./particles-config/particles-config";
 // #endregion Local Imports
 
 export const Landing: React.FunctionComponent<ILanding.IProps> = (_props) => {
@@ -16,7 +16,8 @@ export const Landing: React.FunctionComponent<ILanding.IProps> = (_props) => {
                 style={{
                     height: "100vh",
                     width: "100%",
-                    background: "linear-gradient(#34648e, #57396f)",
+                    background:
+                        "linear-gradient(#000000, #1f1f1f, #636262, #f5f5f5)",
                 }}
             >
                 <Particles
@@ -51,7 +52,11 @@ export const Landing: React.FunctionComponent<ILanding.IProps> = (_props) => {
                         If it's hard to say, just call me John
                     </Typography>
 
-                    <Button variant="contained" style={{ marginTop: "10px" }}>
+                    <Button
+                        variant="contained"
+                        style={{ marginTop: "10px" }}
+                        href="#about"
+                    >
                         See more
                     </Button>
                 </Container>
