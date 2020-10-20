@@ -1,4 +1,3 @@
-
 // #region Global Imports
 import * as React from "react";
 // #endregion Global Imports
@@ -9,5 +8,6 @@ import { Experience } from "./index";
 
 describe("Basic Components", () => {
     describe("Experience", () => {
+        <Experience></Experience>;
     });
 });

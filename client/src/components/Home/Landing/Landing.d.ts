@@ -1,7 +1,5 @@
-
 declare namespace ILanding {
-    export interface IProps {
-    }
+    export interface IProps {}
 }
 
 export { ILanding };

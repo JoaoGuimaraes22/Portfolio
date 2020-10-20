@@ -1,7 +1,5 @@
-
 declare namespace IContact {
-    export interface IProps {
-    }
+    export interface IProps {}
 }
 
 export { IContact };

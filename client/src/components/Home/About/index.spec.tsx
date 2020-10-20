@@ -8,5 +8,6 @@ import { About } from "./index";
 
 describe("Basic Components", () => {
     describe("About", () => {
+        <About></About>;
     });
 });
