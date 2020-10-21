@@ -11,7 +11,7 @@ import { particlesConfig } from "./particles-config/particles-config";
 
 export const Landing: React.FunctionComponent<ILanding.IProps> = (_props) => {
     return (
-        <div style={{ margin: 0, padding: 0 }}>
+        <div style={{ margin: 0, padding: 0 }} id="landing">
             <div
                 style={{
                     height: "100vh",

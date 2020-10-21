@@ -2,33 +2,29 @@
 import { Button, Container, Typography } from "@material-ui/core";
 import React from "react";
 import { MdWeb } from "react-icons/md";
+import { GoServer } from "react-icons/go";
+import { FiDatabase, FiCloud } from "react-icons/fi";
 // #endregion Global Imports
 
 // #region Local Imports
 import { ISkills } from "./Skills";
 import styles from "./Skills.module.scss";
+import { Title } from "../../Loose/Title";
+import { Section } from "../../Loose/Section";
 
 // #endregion Local Imports
 
 export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
     return (
         <>
-            <div id="skills" className={styles.skills}>
-                <Container>
-                    <Typography
-                        variant="h1"
-                        style={{ color: "#fafafa" }}
-                        align="center"
-                    >
-                        Skills
-                    </Typography>
-                </Container>
-                <Container>
+            <Section id="skills" backgroundColor="#000">
+                <Title text="Skills" color="#fafafa"></Title>
+                <Container className={styles.content}>
                     <div className={styles.boxes}>
                         <Container className={styles.box}>
                             <MdWeb className={styles.box_icon} />
                             <Typography
-                                variant="h4"
+                                variant="h5"
                                 className={styles.box_title}
                             >
                                 Frontend
@@ -67,12 +63,12 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
                             </div>
                         </Container>
                         <Container className={styles.box}>
-                            <MdWeb className={styles.box_icon} />
+                            <GoServer className={styles.box_icon} />
                             <Typography
-                                variant="h4"
+                                variant="h5"
                                 className={styles.box_title}
                             >
-                                Frontend
+                                Backend
                             </Typography>
                             <div className={styles.box_textAll}>
                                 <Typography
@@ -108,12 +104,12 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
                             </div>
                         </Container>
                         <Container className={styles.box}>
-                            <MdWeb className={styles.box_icon} />
+                            <FiDatabase className={styles.box_icon} />
                             <Typography
-                                variant="h4"
+                                variant="h5"
                                 className={styles.box_title}
                             >
-                                Frontend
+                                Database
                             </Typography>
                             <div className={styles.box_textAll}>
                                 <Typography
@@ -149,12 +145,12 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
                             </div>
                         </Container>
                         <Container className={styles.box}>
-                            <MdWeb className={styles.box_icon} />
+                            <FiCloud className={styles.box_icon} />
                             <Typography
-                                variant="h4"
+                                variant="h5"
                                 className={styles.box_title}
                             >
-                                Frontend
+                                DevOps
                             </Typography>
                             <div className={styles.box_textAll}>
                                 <Typography
@@ -198,7 +194,7 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
                         Continue
                     </Button>
                 </Container>
-            </div>
+            </Section>
         </>
     );
 };

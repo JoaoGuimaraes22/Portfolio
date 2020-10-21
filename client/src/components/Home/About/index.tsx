@@ -1,43 +1,28 @@
 // #region Global Imports
 import { Container, Typography, Button } from "@material-ui/core";
 import React from "react";
+import { Section } from "../../Loose/Section";
+import { Title } from "../../Loose/Title";
 // #endregion Global Imports
 
 // #region Local Imports
 import { IAbout } from "./About";
+import styles from "./About.module.scss";
 // #endregion Local Imports
 
 export const About: React.FunctionComponent<IAbout.IProps> = (_props) => {
     return (
         <>
-            <div
-                className="about"
-                id="about"
-                style={{
-                    height: "100vh",
-                    paddingTop: "10vh",
-                    background: "#fff",
-                }}
-            >
-                <Container>
-                    <Typography variant="h1" style={{ textAlign: "center" }}>
-                        About
-                    </Typography>
-                    <Container
-                        className=""
-                        style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                            paddingTop: "3rem",
-                        }}
-                    >
+            <Section backgroundColor="#fff" id="about">
+                <Title text="About" color="#000"></Title>
+                <Container className={styles.content}>
+                    <Container className={styles.text}>
                         <div style={{ padding: "0 10rem 0 0" }}>
                             <Typography
                                 variant="body1"
                                 style={{
                                     paddingBottom: "0.7rem",
-                                    borderBottom: "1px solid #B2E2F8",
+                                    borderBottom: "1px solid #53baea",
                                 }}
                             >
                                 Hello! I'm João Guimarães, a 19 years old
@@ -48,7 +33,7 @@ export const About: React.FunctionComponent<IAbout.IProps> = (_props) => {
                                 variant="body1"
                                 style={{
                                     padding: "0.7rem 0",
-                                    borderBottom: "1px solid #B2E2F8",
+                                    borderBottom: "1px solid #53baea",
                                 }}
                             >
                                 I've always loved tech and sports. My greatest
@@ -59,7 +44,7 @@ export const About: React.FunctionComponent<IAbout.IProps> = (_props) => {
                                 variant="body1"
                                 style={{
                                     padding: "0.7rem 0",
-                                    borderBottom: "1px solid #B2E2F8",
+                                    borderBottom: "1px solid #53baea",
                                 }}
                             >
                                 My focus is on the development of modern and
@@ -80,11 +65,15 @@ export const About: React.FunctionComponent<IAbout.IProps> = (_props) => {
                         </div>
                         <img
                             src="/media/imgs/Me.jpg"
-                            style={{ width: "30%", borderRadius: "3%" }}
+                            style={{
+                                width: "auto",
+                                borderRadius: "3%",
+                                height: "400px",
+                            }}
                         ></img>
                     </Container>
                 </Container>
-            </div>
+            </Section>
         </>
     );
 };
