@@ -52,8 +52,12 @@ export const Landing: React.FunctionComponent<ILanding.IProps> = (_props) => {
                     </Typography>
 
                     <Button
-                        variant="contained"
-                        style={{ marginTop: "10px" }}
+                        variant="outlined"
+                        style={{
+                            marginTop: "10px",
+                            color: "rgba(255,255,255,0.9)",
+                            borderColor: "#fff",
+                        }}
                         href="#about"
                     >
                         See more

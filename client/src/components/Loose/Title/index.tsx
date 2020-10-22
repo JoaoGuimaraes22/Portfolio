@@ -8,10 +8,7 @@ import { ITitle } from "./Title";
 import styles from "./Title.module.scss";
 // #endregion Local Imports
 
-export const Title: React.FunctionComponent<ITitle.IProps> = ({
-    text,
-    color,
-}) => {
+export const Title: React.FC<ITitle.IProps> = ({ text, color }) => {
     return (
         <>
             <div className={styles.container}>

@@ -1,5 +1,5 @@
 // #region Global Imports
-import { Button, Container, Typography } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
 import React from "react";
 import { MdWeb } from "react-icons/md";
 import { GoServer } from "react-icons/go";
@@ -19,9 +19,9 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
         <>
             <Section id="skills" backgroundColor="#000">
                 <Title text="Skills" color="#fafafa"></Title>
-                <Container className={styles.content}>
+                <div className={styles.content}>
                     <div className={styles.boxes}>
-                        <Container className={styles.box}>
+                        <div className={styles.box}>
                             <MdWeb className={styles.box_icon} />
                             <Typography
                                 variant="h5"
@@ -61,8 +61,8 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
                                     NextJS
                                 </Typography>
                             </div>
-                        </Container>
-                        <Container className={styles.box}>
+                        </div>
+                        <div className={styles.box}>
                             <GoServer className={styles.box_icon} />
                             <Typography
                                 variant="h5"
@@ -102,8 +102,8 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
                                     NextJS
                                 </Typography>
                             </div>
-                        </Container>
-                        <Container className={styles.box}>
+                        </div>
+                        <div className={styles.box}>
                             <FiDatabase className={styles.box_icon} />
                             <Typography
                                 variant="h5"
@@ -143,8 +143,8 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
                                     NextJS
                                 </Typography>
                             </div>
-                        </Container>
-                        <Container className={styles.box}>
+                        </div>
+                        <div className={styles.box}>
                             <FiCloud className={styles.box_icon} />
                             <Typography
                                 variant="h5"
@@ -184,7 +184,7 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
                                     NextJS
                                 </Typography>
                             </div>
-                        </Container>
+                        </div>
                     </div>
                     <Button
                         variant="contained"
@@ -193,7 +193,7 @@ export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
                     >
                         Continue
                     </Button>
-                </Container>
+                </div>
             </Section>
         </>
     );

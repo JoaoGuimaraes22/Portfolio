@@ -11,12 +11,17 @@ export const Section: React.FunctionComponent<ISection.IProps> = ({
     backgroundColor,
     children,
     id,
+    height,
 }) => {
+    const h = height || "100vh";
     return (
         <>
             <div
                 className={styles.page_section}
-                style={{ backgroundColor: `${backgroundColor}` }}
+                style={{
+                    backgroundColor: `${backgroundColor}`,
+                    height: `${h}`,
+                }}
                 id={id}
             >
                 {children}
