@@ -1,4 +1,5 @@
 import { About } from "../src/components/Home/About";
+import { Contact } from "../src/components/Home/Contact";
 import { Experience } from "../src/components/Home/Experience";
 import { Landing } from "../src/components/Home/Landing";
 import { Projects } from "../src/components/Home/Projects";
@@ -14,6 +15,7 @@ const IndexPage = () => (
                 <Skills></Skills>
                 <Projects></Projects>
                 <Experience></Experience>
+                <Contact></Contact>
             </Layout>
         </div>
     </>

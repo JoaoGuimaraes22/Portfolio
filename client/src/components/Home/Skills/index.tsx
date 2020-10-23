@@ -14,7 +14,7 @@ import { Section } from "../../Loose/Section";
 
 // #endregion Local Imports
 
-export const Skills: React.FunctionComponent<ISkills.IProps> = (_props) => {
+export const Skills: React.FC<ISkills.IProps> = (_props) => {
     return (
         <>
             <Section id="skills" backgroundColor="#000">

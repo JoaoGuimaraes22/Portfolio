@@ -11,7 +11,7 @@ import { Section } from "../../Loose/Section";
 import { Triangle } from "../../Loose/Triangle";
 // #endregion Local Imports
 
-export const Projects: React.FunctionComponent<IProjects.IProps> = (_props) => (
+export const Projects: React.FC<IProjects.IProps> = (_props) => (
     <>
         <Section id="projects" backgroundColor="#fff" height="140vh">
             <Title text="Projects" color="#000"></Title>

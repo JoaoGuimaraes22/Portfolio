@@ -15,7 +15,7 @@ export const Title: React.FC<ITitle.IProps> = ({ text, color }) => {
                 <Typography
                     variant="h1"
                     className={styles.title}
-                    style={{ color: `${color}` }}
+                    style={{ color: color }}
                 >
                     {text}
                 </Typography>

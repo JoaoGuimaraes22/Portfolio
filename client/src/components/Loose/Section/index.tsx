@@ -7,7 +7,7 @@ import { ISection } from "./Section";
 import styles from "./Section.module.scss";
 // #endregion Local Imports
 
-export const Section: React.FunctionComponent<ISection.IProps> = ({
+export const Section: React.FC<ISection.IProps> = ({
     backgroundColor,
     children,
     id,
@@ -19,8 +19,8 @@ export const Section: React.FunctionComponent<ISection.IProps> = ({
             <div
                 className={styles.page_section}
                 style={{
-                    backgroundColor: `${backgroundColor}`,
-                    height: `${h}`,
+                    background: backgroundColor,
+                    height: h,
                 }}
                 id={id}
             >

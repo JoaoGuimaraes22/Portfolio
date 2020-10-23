@@ -8,7 +8,7 @@ import { IGoUp } from "./GoUp";
 import styles from "./GoUp.module.scss";
 // #endregion Local Imports
 
-export const GoUp: React.FunctionComponent<IGoUp.IProps> = (_props) => {
+export const GoUp: React.FC<IGoUp.IProps> = (_props) => {
     return (
         <>
             <div>

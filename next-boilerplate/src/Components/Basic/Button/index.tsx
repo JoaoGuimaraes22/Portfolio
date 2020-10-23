@@ -12,6 +12,6 @@ const Container = styled.div<IButton.IProps>`
     color: ${({ theme }) => theme.colors.primary};
 `;
 
-export const Button: React.FunctionComponent<IButton.IProps> = props => {
+export const Button: React.FC<IButton.IProps> = (props) => {
     return <Container {...props} />;
 };

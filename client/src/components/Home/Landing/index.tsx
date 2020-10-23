@@ -9,7 +9,7 @@ import { ILanding } from "./Landing";
 import { particlesConfig } from "./particles-config/particles-config";
 // #endregion Local Imports
 
-export const Landing: React.FunctionComponent<ILanding.IProps> = (_props) => {
+export const Landing: React.FC<ILanding.IProps> = (_props) => {
     return (
         <div style={{ margin: 0, padding: 0 }} id="landing">
             <div
