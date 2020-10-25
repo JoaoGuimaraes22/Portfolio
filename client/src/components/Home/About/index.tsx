@@ -14,7 +14,7 @@ import styles from "./About.module.scss";
 export const About: React.FC<IAbout.IProps> = (_props) => {
     return (
         <>
-            <Section backgroundColor="#fff" id="about">
+            <Section backgroundColor="#fffaff" id="about">
                 <Title text="About" color="#000"></Title>
                 <Flexer allCenter={true} direction="column">
                     <div className={styles.content}>

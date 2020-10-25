@@ -24,15 +24,16 @@ $pk: #d8315b;
             padding: 1.5rem 0 1rem 0;
             border-radius: 5px;
             background-color: $wh;
+            border: 1px solid $pk;
             box-shadow: 0 27px 100px -19px rgba(255, 255, 255, 0.6);
             &_icon {
-                color: darken($bg-l, 9%);
+                color: lighten($pk, 9%);
                 font-size: 6.3rem;
             }
             &_title {
                 color: $text;
                 padding-top: 1.3rem;
-                border-bottom: 1px solid $bg-l;
+                border-bottom: 1px solid $pk;
             }
             &_textAll {
                 padding-top: 1.3rem;
