@@ -8,7 +8,6 @@ import { IProjects } from "./Projects";
 import styles from "./Projects.module.scss";
 import { Title } from "../../Loose/Title/index";
 import { Section } from "../../Loose/Section";
-import { Triangle } from "../../Loose/Triangle";
 // #endregion Local Imports
 
 export const Projects: React.FC<IProjects.IProps> = (_props) => (
