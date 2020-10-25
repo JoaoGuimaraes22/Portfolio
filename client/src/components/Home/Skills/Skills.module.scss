@@ -1,3 +1,9 @@
+$text: #1e1b18;
+$bg: #3e92cc;
+$bg-l: #53baea;
+$wh: #fffaff;
+$pk: #d8315b;
+
 .content {
     display: flex;
     flex-direction: column;
@@ -17,16 +23,16 @@
             align-items: center;
             padding: 1.5rem 0 1rem 0;
             border-radius: 5px;
-            background-color: #fafafa;
+            background-color: $wh;
             box-shadow: 0 27px 100px -19px rgba(255, 255, 255, 0.6);
             &_icon {
-                color: #089bdf;
+                color: darken($bg-l, 9%);
                 font-size: 6.3rem;
             }
             &_title {
-                color: #000;
+                color: $text;
                 padding-top: 1.3rem;
-                border-bottom: 1px solid #53baea;
+                border-bottom: 1px solid $bg-l;
             }
             &_textAll {
                 padding-top: 1.3rem;
@@ -42,11 +48,11 @@
         margin-top: 2rem;
         width: 60%;
         color: #fafafa;
-        border: 1px solid #53baea;
-        background-color: #000;
+        border: 1px solid darken($bg-l, 9%);
+        background-color: $bg-l;
     }
     .skills_button:hover {
         transition: 0.3s;
-        background-color: lighten(#000, 8%);
+        background-color: lighten($bg-l, 3%);
     }
 }

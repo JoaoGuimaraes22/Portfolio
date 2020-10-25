@@ -17,7 +17,7 @@ import { Section } from "../../Loose/Section";
 export const Skills: React.FC<ISkills.IProps> = (_props) => {
     return (
         <>
-            <Section id="skills" backgroundColor="#000">
+            <Section id="skills" backgroundColor="#3e92cc">
                 <Title text="Skills" color="#fafafa"></Title>
                 <div className={styles.content}>
                     <div className={styles.boxes}>

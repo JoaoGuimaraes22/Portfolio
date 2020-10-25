@@ -1,5 +1,5 @@
-$text-color: rgba(27, 27, 27, 0.849);
-$bg-entry: #089bdf;
+$text-color: #777777;
+$bg-entry: #53baea;
 
 .timeline {
     margin: 0px auto;
@@ -9,18 +9,19 @@ $bg-entry: #089bdf;
     position: relative;
     padding: 0px;
     list-style-type: none;
-    margin-top: 4rem;
+    margin-top: 6rem;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEElEQVQIW2NMTEz8z8gABAAPKwIlXWq1kgAAAABJRU5ErkJggg==);
     background-repeat: repeat-y;
     background-position: 50% 0;
 
     .year {
+        border: 1px solid #fffaff;
         background: $bg-entry;
         font-size: 3em;
         max-width: 4em;
         clear: both;
         margin: 1em auto 2em;
-        color: white;
+        color: #fffaff;
         border-radius: 30% / 100%;
         text-align: center;
         margin-top: 2em;
@@ -47,11 +48,11 @@ $bg-entry: #089bdf;
         list-style-type: none;
         display: block;
         padding: 0.55em;
-        background: white;
+        background: #fffaff;
         z-index: 15;
 
         color: $text-color;
-        border: 1px solid lighten($bg-entry, 20%);
+        border: 1px solid #000;
         text-decoration: none;
 
         -webkit-transition: background 0.15s linear;
