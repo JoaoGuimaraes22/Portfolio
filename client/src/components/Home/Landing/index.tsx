@@ -14,7 +14,7 @@ export const Landing: React.FC<ILanding.IProps> = (_props) => {
         <div style={{ margin: 0, padding: 0 }} id="landing">
             <div
                 style={{
-                    height: "100vh",
+                    minHeight: "100vh",
                     width: "100%",
                     background: "linear-gradient(#3e92cc, #B2E2F8)",
                 }}

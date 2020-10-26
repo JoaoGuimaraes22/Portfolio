@@ -3,7 +3,7 @@ $bg-entry: #53baea;
 $text: #1e1b18;
 $bg: #3e92cc;
 $wh: #fffaff;
-$pk: #d8315b;
+$pk: #d83131;
 
 .timeline {
     margin: 0px auto;
@@ -149,4 +149,9 @@ $pk: #d8315b;
 
 .caption {
     color: #000;
+    border-bottom: 1px solid $pk;
+}
+
+.txt {
+    padding: 0.5rem 0;
 }

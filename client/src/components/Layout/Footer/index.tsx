@@ -20,7 +20,7 @@ export const Footer: React.FC<IFooter.IProps> = (_props) => {
                         style={{ fontSize: "1.3rem" }}
                     >
                         Made by JOÃO GUIMARÃES{" "}
-                        <span style={{ color: "#53baea" }}>&#169;</span> 2020
+                        <span style={{ color: "#d8315b" }}>&#169;</span> 2020
                     </Typography>
                     <div className={styles.footer_icons}>
                         <a href="#" target="_blank">

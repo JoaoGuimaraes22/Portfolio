@@ -1,7 +1,14 @@
+$text-color: #777777;
+$bg-entry: #53baea;
+$text: #1e1b18;
+$bg: #3e92cc;
+$wh: #fffaff;
+$pk: #d8315b;
+
 .footer {
-    background-color: #000;
+    background-color: #089bdf;
     color: #fff;
-    border-top: 2.5px solid #089bdf;
+    border-top: 1px solid $pk;
     &_text {
         padding-top: 1.4rem;
     }
@@ -20,7 +27,7 @@
         a:hover {
             transition: 0.4s;
             position: relative;
-            color: #53baea;
+            color: $pk;
         }
     }
 }

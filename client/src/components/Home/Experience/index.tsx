@@ -16,7 +16,6 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
         <Section
             id="experience"
             backgroundColor="linear-gradient(#3e92cc, #B2E2F8)"
-            height="250vh"
         >
             <Title text="Experience" color="#fff" lineColor="#d8315b"></Title>
             <Flexer allCenter={true} direction="column"></Flexer>
@@ -27,33 +26,68 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
                 </li>
                 <li className={`${styles.event} ${styles.offset_first}`}>
                     <Typography variant="body1">
-                        Working on Unipartner...
+                        Still studying and working on Unipartner...
                     </Typography>
                 </li>
                 <li className={styles.event}>
+                    <Typography variant="caption" className={styles.caption}>
+                        September 2020
+                    </Typography>
                     <Typography variant="body1">
-                        Timeline.css is dynamic responsive and optimized to
-                        demonstrate events in your life in a simple and clear
-                        way
+                        Started my first year studying in a computer engineering
+                        Bachelor's Degree in ISCTE - Lisbon University Institute
                     </Typography>
                 </li>
                 <li className={styles.event}>
-                    <Typography variant="body1">
-                        Timeline.css is dynamic responsive and optimized to
-                        demonstrate events in your life in a simple and clear
-                        way
+                    <Typography variant="caption" className={styles.caption}>
+                        February 2020 - Present
+                    </Typography>
+                    <br />
+                    <Typography variant="body1" className={styles.txt}>
+                        - Entered the "App Modernization project for Crédito
+                        Agrícola", where I am currently.
+                    </Typography>
+                    <Typography variant="body1" className={styles.txt}>
+                        - Dealt with the containerization and orchestration of
+                        their applications, developed new services with recent
+                        technologies, built MLOps pipelines for their ML
+                        processes and applications and developed chatbots for
+                        internal company use.
+                    </Typography>
+                    <Typography variant="body1" className={styles.txt}>
+                        - Used Azure, Docker, Kubernetes, Python, SQL Server,
+                        Power Platform, .NET and ASP.NET Core, ML Workspace,
+                        Azure DevOps (Pipelines), React, and more
                     </Typography>
                 </li>
                 <li className={styles.event}>
-                    <Typography variant="body1">
-                        Timeline.css is dynamic responsive and optimized to
-                        demonstrate events in your life in a simple and clear
-                        way
+                    <Typography variant="caption" className={styles.caption}>
+                        January 2020 - February 2020
+                    </Typography>
+                    <br />
+                    <Typography variant="body1" className={styles.txt}>
+                        - Was the main developer on an Augmented Reality hybrid
+                        mobile application for auditing, for showcase in the
+                        event Microsoft Building the Future
+                    </Typography>
+                    <Typography variant="body1" className={styles.txt}>
+                        - Used the Unity Engine, C#, AR Foundation, Dynamics365,
+                        Azure CosmosDB
                     </Typography>
                 </li>
                 <li className={styles.event}>
-                    <Typography variant="body1">
-                        Started working as a developer at Unipartner
+                    <Typography variant="caption" className={styles.caption}>
+                        October 2019 - January 2020
+                    </Typography>
+                    <br />
+                    <Typography variant="body1" className={styles.txt}>
+                        - Developed backend services to handle language
+                        understanding and message intent detection for a chatbot
+                        used by a financial services company
+                    </Typography>
+                    <Typography variant="body1" className={styles.txt}>
+                        - Used .NET CORE, Azure SQL Server, Microsoft's LUIS and
+                        QNA Maker
                     </Typography>
                 </li>
 
@@ -67,7 +101,9 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
                     </Typography>
                     <br />
                     <Typography variant="body1" className={styles.txt}>
-                        Started working for Unipartner IT Services
+                        - Started working as a developer for Unipartner IT
+                        Services, in a team focused on innovation called Digital
+                        Lab
                         <img src="/media/imgs/unip.png" alt="" />
                     </Typography>
                 </li>
@@ -77,7 +113,7 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
                     </Typography>
                     <br />
                     <Typography variant="body1" className={styles.txt}>
-                        Having finished highschool, started preparing by
+                        - Having finished highschool, started preparing by
                         learning how to program in an enterprise oriented manner
                     </Typography>
                 </li>
@@ -87,7 +123,7 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
                     </Typography>
                     <br />
                     <Typography variant="body1" className={styles.txt}>
-                        Began learning the basic building blocks of the web,
+                        - Began learning the basic building blocks of the web,
                         HTML, CSS and Javascript
                     </Typography>
                 </li>
@@ -102,7 +138,7 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
                     </Typography>
                     <br />
                     <Typography variant="body1" className={styles.txt}>
-                        Building simple programs
+                        - Building simple programs
                     </Typography>
                 </li>
                 <li className={styles.event}>
@@ -111,7 +147,7 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
                     </Typography>
                     <br />
                     <Typography variant="body1" className={styles.txt}>
-                        Started to mess around with different programming
+                        - Started to mess around with different programming
                         languages and technologies
                     </Typography>
                 </li>
