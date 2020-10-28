@@ -1,14 +1,15 @@
 // #region Global Imports
 import { Typography, Button } from "@material-ui/core";
 import React from "react";
-import Flexer from "../../Loose/Flexer";
-import { Section } from "../../Loose/Section";
-import { Title } from "../../Loose/Title";
+import Image from "next/image";
 // #endregion Global Imports
 
 // #region Local Imports
 import { IAbout } from "./About";
 import styles from "./About.module.scss";
+import Flexer from "../../Loose/Flexer";
+import { Section } from "../../Loose/Section";
+import { Title } from "../../Loose/Title";
 // #endregion Local Imports
 
 export const About: React.FC<IAbout.IProps> = (_props) => {
@@ -66,14 +67,13 @@ export const About: React.FC<IAbout.IProps> = (_props) => {
                                 </Button>
                             </div>
                         </div>
-                        <img
+                        {/*Look into next/image for responsiveness layout*/}
+                        <Image
                             src="/media/imgs/Me.jpg"
-                            style={{
-                                width: "auto",
-                                borderRadius: "3%",
-                                height: "350px",
-                            }}
-                        ></img>
+                            height={650}
+                            width={650}
+                            className={styles.about_img}
+                        ></Image>
                     </div>
                 </Flexer>
             </Section>

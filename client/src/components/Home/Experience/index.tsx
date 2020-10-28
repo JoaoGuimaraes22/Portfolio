@@ -1,5 +1,5 @@
 // #region Global Imports
-import { Typography } from "@material-ui/core";
+import { Button, Typography } from "@material-ui/core";
 import React from "react";
 import Flexer from "../../Loose/Flexer";
 import { Section } from "../../Loose/Section";
@@ -25,17 +25,13 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
                     <Typography variant="h3">2021</Typography>
                 </li>
                 <li className={`${styles.event} ${styles.offset_first}`}>
-                    <Typography variant="body1">
-                        Still studying and working on Unipartner...
-                    </Typography>
-                </li>
-                <li className={styles.event}>
                     <Typography variant="caption" className={styles.caption}>
-                        September 2020
+                        September 2020 - Present
                     </Typography>
                     <Typography variant="body1">
-                        Started my first year studying in a computer engineering
-                        Bachelor's Degree in ISCTE - Lisbon University Institute
+                        - Started my first year studying in a computer
+                        engineering Bachelor's Degree in ISCTE - Lisbon
+                        University Institute
                     </Typography>
                 </li>
                 <li className={styles.event}>
@@ -152,6 +148,13 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
                     </Typography>
                 </li>
             </ul>
+            <Button
+                variant="outlined"
+                href="#contacts"
+                style={{ color: "#777777" }}
+            >
+                Continue
+            </Button>
         </Section>
     </>
 );
