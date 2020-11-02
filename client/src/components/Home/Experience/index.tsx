@@ -151,7 +151,7 @@ export const Experience: React.FC<IExperience.IProps> = (_props) => (
             <Button
                 variant="outlined"
                 href="#contacts"
-                style={{ color: "#777777" }}
+                style={{ color: "#fff" }}
             >
                 Continue
             </Button>

@@ -22,10 +22,6 @@ export const Projects: React.FC<IProjects.IProps> = (_props) => (
                                 <img
                                     src="/media/imgs/predios.jpg"
                                     alt="Avatar"
-                                    style={{
-                                        width: "300px",
-                                        height: "300px",
-                                    }}
                                     className={styles.card_img}
                                 ></img>
                                 <Typography
@@ -48,7 +44,6 @@ export const Projects: React.FC<IProjects.IProps> = (_props) => (
                                 <img
                                     src="/media/imgs/tech.jpeg"
                                     alt="Avatar"
-                                    style={{ width: "300px", height: "300px" }}
                                     className={styles.card_img}
                                 ></img>
                             </div>
@@ -65,7 +60,6 @@ export const Projects: React.FC<IProjects.IProps> = (_props) => (
                                 <img
                                     src="/media/imgs/logo.jpg"
                                     alt="Avatar"
-                                    style={{ width: "300px", height: "300px" }}
                                     className={styles.card_img}
                                 ></img>
                             </div>
@@ -82,7 +76,6 @@ export const Projects: React.FC<IProjects.IProps> = (_props) => (
                                 <img
                                     src="/media/imgs/app.jpeg"
                                     alt="Avatar"
-                                    style={{ width: "300px", height: "300px" }}
                                     className={styles.card_img}
                                 ></img>
                             </div>
@@ -99,7 +92,6 @@ export const Projects: React.FC<IProjects.IProps> = (_props) => (
                                 <img
                                     src="/media/imgs/test.jpg"
                                     alt="Avatar"
-                                    style={{ width: "300px", height: "300px" }}
                                     className={styles.card_img}
                                 ></img>
                             </div>
@@ -116,7 +108,6 @@ export const Projects: React.FC<IProjects.IProps> = (_props) => (
                                 <img
                                     src="/media/imgs/code.jpg"
                                     alt="Avatar"
-                                    style={{ width: "300px", height: "300px" }}
                                     className={styles.card_img}
                                 ></img>
                             </div>

@@ -7,6 +7,7 @@ import Particles from "react-particles-js";
 // #region Local Imports
 import { ILanding } from "./Landing";
 import { particlesConfig } from "./particles-config/particles-config";
+import styles from "Landing.module.scss";
 // #endregion Local Imports
 
 export const Landing: React.FC<ILanding.IProps> = (_props) => {
@@ -23,7 +24,7 @@ export const Landing: React.FC<ILanding.IProps> = (_props) => {
                     className="particles"
                     // @ts-ignore
                     params={particlesConfig}
-                    style={{ height: "100vh" }}
+                    style={{ height: "100%" }}
                 />
                 <Container
                     style={{

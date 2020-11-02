@@ -20,13 +20,10 @@ export const About: React.FC<IAbout.IProps> = (_props) => {
                 <Flexer allCenter={true} direction="column">
                     <div className={styles.content}>
                         <div className={styles.text}>
-                            <div style={{ padding: "0 10rem 0 0" }}>
+                            <div className={styles.txt_container}>
                                 <Typography
                                     variant="body1"
-                                    style={{
-                                        paddingBottom: "0.7rem",
-                                        borderBottom: "1px solid #53baea",
-                                    }}
+                                    className={styles.txt_comp}
                                 >
                                     Hello! I'm João Guimarães, a 19 years old
                                     fullstack developer who loves building
@@ -34,10 +31,7 @@ export const About: React.FC<IAbout.IProps> = (_props) => {
                                 </Typography>
                                 <Typography
                                     variant="body1"
-                                    style={{
-                                        padding: "0.7rem 0",
-                                        borderBottom: "1px solid #53baea",
-                                    }}
+                                    className={styles.txt_comp}
                                 >
                                     I've always loved tech and sports. My
                                     greatest passions are technology, volleyball
@@ -45,10 +39,7 @@ export const About: React.FC<IAbout.IProps> = (_props) => {
                                 </Typography>
                                 <Typography
                                     variant="body1"
-                                    style={{
-                                        padding: "0.7rem 0",
-                                        borderBottom: "1px solid #53baea",
-                                    }}
+                                    className={styles.txt_comp}
                                 >
                                     My focus is on the development of modern and
                                     efficient websites, web apps or services to
@@ -61,6 +52,7 @@ export const About: React.FC<IAbout.IProps> = (_props) => {
                                     style={{
                                         margin: "1rem 0",
                                     }}
+                                    className={styles.about_button}
                                     href="#skills"
                                 >
                                     Continue
@@ -68,12 +60,10 @@ export const About: React.FC<IAbout.IProps> = (_props) => {
                             </div>
                         </div>
                         {/*Look into next/image for responsiveness layout*/}
-                        <Image
+                        <img
                             src="/media/imgs/Me.jpg"
-                            height={650}
-                            width={650}
                             className={styles.about_img}
-                        ></Image>
+                        ></img>
                     </div>
                 </Flexer>
             </Section>
