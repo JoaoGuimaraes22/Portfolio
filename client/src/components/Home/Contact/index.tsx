@@ -21,7 +21,7 @@ export const Contact: React.FC<IContact.IProps> = (_props) => {
 
     return (
         <>
-            <Section id="contacts" backgroundColor="#fff">
+            <Section id="contacts" backgroundColor="#fff" height="85vh">
                 <Title text="Contacts" color="#000"></Title>
                 <Container component="main" maxWidth="xs">
                     <div className={styles.paper}>
@@ -70,8 +70,7 @@ export const Contact: React.FC<IContact.IProps> = (_props) => {
                             <Button
                                 type="submit"
                                 fullWidth
-                                variant="contained"
-                                color="primary"
+                                variant="outlined"
                                 className={styles.submit}
                             >
                                 Send

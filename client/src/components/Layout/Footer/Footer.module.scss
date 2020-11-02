@@ -6,9 +6,9 @@ $wh: #fffaff;
 $pk: #d8315b;
 
 .footer {
-    background-color: #089bdf;
+    background-color: #53baea;
     color: #fff;
-    border-top: 1px solid $pk;
+    border-top: 1px solid $text;
     &_text {
         padding-top: 1.4rem;
     }
@@ -25,10 +25,31 @@ $pk: #d8315b;
             margin: 0 1.5rem;
         }
         a:hover {
-            transition: 0.3s;
-            position: relative;
-            color: $pk;
-            top: -3px;
+            animation-name: iconH;
+            animation-duration: 0.2s;
+            animation-fill-mode: forwards;
         }
+    }
+}
+
+@keyframes iconH {
+    0% {
+        position: relative;
+        top: 0;
+    }
+    33% {
+        color: lighten($pk, 40%);
+        position: relative;
+        top: -2.5px;
+    }
+    66% {
+        color: lighten($pk, 20%);
+        position: relative;
+        top: -5px;
+    }
+    100% {
+        color: $pk;
+        position: relative;
+        top: -7.5px;
     }
 }

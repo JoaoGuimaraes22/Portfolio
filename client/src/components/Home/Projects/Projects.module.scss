@@ -83,15 +83,16 @@
 @media only screen and (max-width: 1100px) {
     .content {
         .cards {
+            width: 80%;
             grid-template-columns: repeat(2, 1fr);
         }
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 660px) {
     .content {
         .cards {
-            width: 70%;
+            width: 90%;
             grid-template-columns: repeat(1, 1fr);
         }
     }

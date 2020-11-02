@@ -3,6 +3,7 @@ declare namespace ISection {
         backgroundColor?: string;
         id: string;
         children?: any;
+        height?: string;
     }
 }
 

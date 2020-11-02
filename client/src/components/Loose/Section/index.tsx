@@ -11,13 +11,16 @@ export const Section: React.FC<ISection.IProps> = ({
     backgroundColor,
     children,
     id,
+    height,
 }) => {
+    const pageHeight = height || "100vh";
     return (
         <>
             <div
                 className={styles.page_section}
                 style={{
                     background: backgroundColor,
+                    minHeight: pageHeight,
                 }}
                 id={id}
             >
