@@ -1,12 +1,12 @@
 $text-color: #777777;
-$bg-entry: #53baea;
+$bg-entry: #57396f;
 $text: #1e1b18;
 $bg: #3e92cc;
 $wh: #fffaff;
-$pk: #d8315b;
+$pk: #3e92cc;
 
 .footer {
-    background-color: #53baea;
+    background-color: $bg-entry;
     color: #fff;
     border-top: 1px solid $text;
     &_text {

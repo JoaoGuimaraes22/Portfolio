@@ -4,6 +4,7 @@ declare namespace ISection {
         id: string;
         children?: any;
         height?: string;
+        padingBottom?: string;
     }
 }
 

@@ -4,7 +4,6 @@ import React from "react";
 
 // #region Local Imports
 import { ISection } from "./Section";
-import styles from "./Section.module.scss";
 // #endregion Local Imports
 
 export const Section: React.FC<ISection.IProps> = ({
@@ -12,15 +11,20 @@ export const Section: React.FC<ISection.IProps> = ({
     children,
     id,
     height,
+    padingBottom,
 }) => {
     const pageHeight = height || "100vh";
+    const padBottom = padingBottom || "5vh";
+
     return (
         <>
             <div
-                className={styles.page_section}
                 style={{
                     background: backgroundColor,
                     minHeight: pageHeight,
+                    paddingTop: "5vh",
+                    textAlign: "center",
+                    paddingBottom: padBottom,
                 }}
                 id={id}
             >

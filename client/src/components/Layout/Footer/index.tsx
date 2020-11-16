@@ -20,16 +20,25 @@ export const Footer: React.FC<IFooter.IProps> = (_props) => {
                         style={{ fontSize: "1.3rem" }}
                     >
                         Made by JOÃO GUIMARÃES{" "}
-                        <span style={{ color: "#d8315b" }}>&#169;</span> 2020
+                        <span style={{ color: "#3e92cc" }}>&#169;</span> 2020
                     </Typography>
                     <div className={styles.footer_icons}>
-                        <a href="#" target="_blank">
+                        <a
+                            href="https://github.com/JoaoGuimaraes22"
+                            target="_blank"
+                        >
                             <FaGithub />
                         </a>
-                        <a href="#" target="_blank">
+                        <a
+                            href="https://www.linkedin.com/in/jo%C3%A3o-guimar%C3%A3es-4abaa7197/"
+                            target="_blank"
+                        >
                             <FaLinkedin />
                         </a>
-                        <a href="#" target="_blank">
+                        <a
+                            href="https://www.instagram.com/sebasguimas/"
+                            target="_blank"
+                        >
                             <FaInstagram />
                         </a>
                         <a href="#" target="_blank">

@@ -12,7 +12,7 @@ import { Section } from "../../Loose/Section";
 
 export const Projects: React.FC<IProjects.IProps> = (_props) => (
     <>
-        <Section id="projects" backgroundColor="#fffaff">
+        <Section id="projects" backgroundColor="#fffaff" padingBottom="10vh">
             <Title text="Projects" color="#000"></Title>
             <div className={styles.content}>
                 <div className={styles.cards}>

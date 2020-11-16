@@ -1,0 +1,134 @@
+.nav_title_link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(87, 57, 111, 0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    animation: iniOpacity 1.7s;
+}
+
+.nav > .nav_header {
+    display: inline;
+}
+
+.nav > .nav_header > .nav_title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 10px 10px 10px;
+    margin-left: 1rem;
+}
+
+.nav_title_link:hover {
+    color: rgba(255, 255, 255, 0.808);
+    transition: 0.4s all;
+}
+
+.nav > .nav_btn {
+    display: none;
+}
+
+.nav > .nav_links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    margin-right: 1.1rem;
+}
+
+.nav > .nav_links > a {
+    display: inline-block;
+    padding: 13px 15px 13px 15px;
+    text-decoration: none;
+    color: #efefef;
+}
+
+.nav > .nav_links > a:hover {
+    background-color: rgba(14, 13, 13, 0.3);
+}
+
+.nav > #nav_check {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .nav > .nav_btn {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 0px;
+    }
+    .nav > .nav_btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+    .nav > .nav_btn > label:hover,
+    .nav #nav_check:checked ~ .nav_btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav_btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+    .nav > .nav_links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: rgba(64, 123, 175, 0.5);
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+    .nav > .nav_links > a {
+        display: block;
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.288);
+    }
+    .nav > #nav_check:not(:checked) ~ .nav_links {
+        height: 0px;
+    }
+    .nav > #nav_check:checked ~ .nav_links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+}
+
+@keyframes iniOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.nav:hover {
+    background-color: rgba(87, 57, 111, 0.8);
+    transition: 0.2s all;
+}
