@@ -1,0 +1,22 @@
+{
+  "name": "send_email",
+  "version": "1.0.0",
+  "description": "API for sending email sending using sengrid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoGuimaraes22/Portfolio.git"
+  },
+  "author": "João Guimarães",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoGuimaraes22/Portfolio/issues"
+  },
+  "homepage": "https://github.com/JoaoGuimaraes22/Portfolio#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0"
+  }
+}

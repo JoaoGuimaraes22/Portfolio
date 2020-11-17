@@ -1,0 +1,55 @@
+$text-color: #777777;
+$bg-entry: #57396f;
+$text: #1e1b18;
+$bg: #3e92cc;
+$wh: #fffaff;
+$pk: #3e92cc;
+
+.footer {
+    background-color: $bg-entry;
+    color: #fff;
+    border-top: 1px solid $text;
+    &_text {
+        padding-top: 1.4rem;
+    }
+    &_icons {
+        padding: 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 1.3rem;
+        a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 1.5rem;
+        }
+        a:hover {
+            animation-name: iconH;
+            animation-duration: 0.2s;
+            animation-fill-mode: forwards;
+        }
+    }
+}
+
+@keyframes iconH {
+    0% {
+        position: relative;
+        top: 0;
+    }
+    33% {
+        color: lighten($pk, 40%);
+        position: relative;
+        top: -2.5px;
+    }
+    66% {
+        color: lighten($pk, 20%);
+        position: relative;
+        top: -5px;
+    }
+    100% {
+        color: $pk;
+        position: relative;
+        top: -7.5px;
+    }
+}

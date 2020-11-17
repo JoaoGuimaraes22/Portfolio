@@ -1,0 +1,12 @@
+node_modules
+
+# For Production
+__tests__
+**/*.spec.tsx
+**/*.stories.tsx
+.storybook
+.gitignore
+.prettierignore
+.prettierrc.js
+jest.config.js
+tsconfig.jest.json
