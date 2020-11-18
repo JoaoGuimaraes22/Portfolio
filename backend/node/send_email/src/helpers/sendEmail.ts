@@ -1,5 +1,15 @@
 const sgMail = require("@sendgrid/mail");
 
+// SET TYPES
+
+interface msg {
+  to: string;
+  from: string;
+  subject: string;
+  text: string;
+  html: string;
+}
+
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const msg = {
   to: "test@example.com", // Change to your recipient
@@ -15,7 +25,7 @@ const sendEmail = () => {
     .then(() => {
       console.log("Email sent");
     })
-    .catch((error) => {
+    .catch((error: string) => {
       console.error(error);
     });
 };
